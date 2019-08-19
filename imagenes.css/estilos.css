@@ -1,0 +1,125 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #ffffff;
+background: -webkit-linear-gradient(to top, #434343, #000000);
+background: linear-gradient(to top, #434343, #000000);
+    
+}
+nav{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    
+
+}
+}
+.icono{
+    animation: moverIzquierdo 1.5s ease-in;
+    z-index: 100%;
+}
+header{
+    background: #c31432; 
+    background: -webkit-linear-gradient(to top, #c31432, #240b36);
+    background: linear-gradient(to top, #c31432, #240b36); 
+    height: 585px;
+    left: auto;
+    padding: 0px;
+    width: auto;
+}
+.container{
+    width: 1600px;
+    max-width: 5000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    animation: moverIzquierdo 1s ease-in;
+}
+img{
+    display: block;
+    height: 520px;
+    object-fit: cover;
+    width: auto;
+}
+.texto{
+    width: 50%;
+    color: white;
+}
+.texto h1{
+    font-size: 70px;
+}
+.texto h2{
+    font-size: 30px;
+}
+.texto a{
+    display: inline-block;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+    border: 1px solid white;
+    width: 150px;
+    border-radius: 3PX;text-align: center;
+    padding: 8px 0;
+}
+.wave{
+    height: 100px;
+    width: 100%;
+    
+}
+@keyframes moverIzquierdo{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+.logo{
+    
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+  
+
+    
+}
+.logo li{
+    margin: auto;
+    
+}
+.logo img{
+    width: 235px;
+    height: auto;
+}
+
+
+.containers{
+    width: 300px;
+    margin: auto;
+    animation: moverIzquierdo 1s ease-in;
+
+}
+.musica{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap
+}
